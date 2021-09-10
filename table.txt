@@ -1,0 +1,13 @@
+CREATE TABLE consultas (
+id INT(6) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+cep VARCHAR(10) NOT NULL,
+logradouro VARCHAR(50),
+complemento VARCHAR(50),
+bairro VARCHAR(50),
+localidade VARCHAR(50) NOT NULL,
+uf VARCHAR(2),
+ibge INT(10) NOT NULL,
+gia VARCHAR(15),
+ddd INT(2) NOT NULL,
+siafi INT(10) NOT NULL
+)
